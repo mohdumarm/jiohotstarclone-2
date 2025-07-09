@@ -9,7 +9,8 @@
 }
 @media(max-width:900px) {
     .footer-section {
-      
+        font-size: 14px;
+
         padding-left: 5px;
     }
 
@@ -180,6 +181,12 @@
     .next-text {
         font-size: 12px;
     }
+    .conditions{
+        gap: 10px;
+        font-size: 14px;
+        
+    }
+    
 }
 
 @media(max-width:417px) {
@@ -266,13 +273,6 @@
     .det-2018{
         font-size:11px;
     }
-    .next-text{
-
-    }
-    .small-img img{
-
-    }
-    .lang-row{
-
-    }
+    
 }
+
