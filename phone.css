@@ -275,4 +275,14 @@
     }
     
 }
-
+@media(max-width:377px){
+    .det-2018{
+        font-size:11px;
+    }
+    
+}
+@media(max-width:900px){
+    .hover-img{
+        display: none;
+    }
+}
