@@ -242,8 +242,8 @@
 }
 @media(max-width:389px) {
     .text-small {
-        font-weight: 700;
-        font-size: 8.3px;
+        font-weight: 900;
+        font-size: 8.9px;
     }
 
     .det-2018 {
@@ -281,8 +281,32 @@
     }
     
 }
-@media(max-width:900px){
-    .hover-img{
-        display: none;
-    }
+@media(max-width: 800px){
+  .hide, .hide1 {
+    display: none !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+    transform: scale(1.04)!important;
+  }
 }
+@media(max-width: 800px){
+  .banner-img img {
+    height: 80vh;
+  }
+  .small-img {
+   margin-top: -144px;
+  }
+  .side-main{
+    margin-top: -92px;
+  }
+  
+  .banner-img{
+        height: 83vh;
+  }
+}
+@media(max-width: 400px){
+  .small-img img {
+    padding-right: 13px;
+  }
+}
+
